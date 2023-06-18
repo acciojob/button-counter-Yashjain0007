@@ -3,7 +3,7 @@ import React,{useState} from "react";
 import './../styles/App.css';
 
 const App = () => {
-  let[click,setClick] = useState("");
+  let[click,setClick] = useState(0);
   return (
     <div>
         {/* Do not remove the main div */}
